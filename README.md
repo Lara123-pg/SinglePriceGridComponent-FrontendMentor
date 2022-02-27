@@ -7,8 +7,8 @@
 Clone o projeto em seu dispositivo e acesse a pasta do mesmo
 
 ```
-$ git clone
-$ cd
+$ git clone https://github.com/Lara123-pg/SinglePriceGridComponent-FrontendMentor.git
+$ cd SinglePriceGridComponent-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
 
