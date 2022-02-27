@@ -11,6 +11,7 @@ $ git clone https://github.com/Lara123-pg/SinglePriceGridComponent-FrontendMento
 $ cd SinglePriceGridComponent-FrontendMentor
 $ code .  (Abrir o Visual Studio Code)
 ```
+Logo em seguida, o projeto estará em seu editor para ser executado.
 
 # Projeto
 
