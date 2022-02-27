@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  background-color: #e5eff5;
+  margin-left: 15em;
+}
+
+main.card {
+  display: grid;
+  grid-template-areas: "m1 m1 m1 m1" "m2 m2 m3 m3";
+  padding: 2em;
+}
+main.card .main1 {
+  width: 81%;
+  background-color: #fff;
+  padding: 1em 2.5em;
+  grid-area: m1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-bottom: 3em;
+}
+main.card .main1 header h1 {
+  color: #2ab2af;
+  font-size: 2rem;
+  font-weight: 700;
+  padding-top: 1em;
+}
+main.card .main1 header h2 {
+  color: #c0df34;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+main.card .main1 p {
+  color: #98a6bd;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.7rem;
+}
+main.card .main2 {
+  width: 100%;
+  background-color: #2ab2af;
+  padding: 2em;
+  grid-area: m2;
+  border-bottom-left-radius: 10px;
+  padding-right: 7em;
+}
+main.card .main2 header h2 {
+  color: #e5eff5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1.5em;
+  padding-top: 1em;
+}
+main.card .main2 p.p1 {
+  color: #e5eff5;
+  font-size: 1rem;
+  font-weight: 400;
+}
+main.card .main2 p.p1 span {
+  color: #e5eff5;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-right: 0.2em;
+}
+main.card .main2 p.p2 {
+  color: #e5eff5;
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 0.5em;
+}
+main.card .main2 button {
+  color: #e5eff5;
+  font-size: 1.1rem;
+  font-weight: 700;
+  width: 90%;
+  background-color: #c0df34;
+  padding: 1.2em;
+  border: 0;
+  border-radius: 10px;
+  margin-top: 1.6em;
+  margin-bottom: 1.5em;
+  cursor: pointer;
+}
+main.card .main3 {
+  width: 68%;
+  background-color: #2ab2af;
+  padding: 3em;
+  grid-area: m3;
+  border-bottom-right-radius: 10px;
+  border-left: 3px solid #2ab2af;
+  opacity: 0.8;
+}
+main.card .main3 header h2 {
+  color: #e5eff5;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 1.5em;
+  padding-top: 0.5em;
+}
+main.card .main3 p {
+  color: #e5eff5;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 2rem;
+}
+
+.attribution {
+  font-size: 15px;
+  margin-left: 20em;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 1360px) {
+  main.card {
+    display: block;
+  }
+  main.card .main1 {
+    width: 60%;
+  }
+  main.card .main1 header h1 {
+    padding-bottom: 0.5em;
+  }
+  main.card .main1 header h2 {
+    padding-bottom: 1.2em;
+  }
+  main.card .main2 {
+    width: 60%;
+    border-bottom-left-radius: 0;
+  }
+  main.card .main3 {
+    width: 60%;
+    border-bottom-left-radius: 10px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

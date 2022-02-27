@@ -1,0 +1,31 @@
+@media (max-width: 1360px) {
+    main.card {
+        display: block;
+
+        .main1 {
+            width: 60%;
+
+            header {
+                h1 {
+                    padding-bottom: 0.5em;
+                }
+
+                h2 {
+                    padding-bottom: 1.2em;
+                }
+            }
+        }
+
+        .main2 {
+            width: 60%;
+
+            border-bottom-left-radius: 0;
+        }
+
+        .main3 {
+            width: 60%;
+
+            border-bottom-left-radius: 10px;
+        }
+    }
+}

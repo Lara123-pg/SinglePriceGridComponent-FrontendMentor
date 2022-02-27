@@ -1,0 +1,115 @@
+$text-color: hsl(179, 62%, 43%);
+$text-color2: hsl(71, 73%, 54%);
+$text-color3: hsl(218, 22%, 67%);
+$text-color4: hsl(204, 43%, 93%);
+
+main.card {
+    display: grid;
+
+    grid-template-areas: 'm1 m1 m1 m1'
+                         'm2 m2 m3 m3';
+    
+    padding: 2em;
+
+    .main1 {
+        @include card(81%, #fff, 1em 2.5em, m1);
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+        padding-bottom: 3em;
+
+        header {
+            h1 {
+                @include styleFont($text-color, 2rem, 700);
+
+                padding-top: 1em;
+            }
+
+            h2 {
+                @include styleFont($text-color2, 1.5rem, 700);
+
+                padding-top: 1em;
+                padding-bottom: 0.5em;
+            }
+        }
+
+        p {
+            @include styleFont($text-color3, 1.1rem, 700);
+
+            line-height: 1.7rem;
+        }
+    }
+
+    .main2 {
+        @include card(100%, $text-color, 2em, m2);
+
+        border-bottom-left-radius: 10px;
+
+        padding-right: 7em;
+
+        header {
+            h2 {
+                @include styleFont($text-color4, 1.5rem, 700);
+                
+                padding-bottom: 1.5em;
+                padding-top: 1em;
+            }
+        }
+
+        p.p1 {
+            @include styleFont($text-color4, 1rem, 400);
+
+            span {
+                @include styleFont($text-color4, 2.5rem, 700);
+
+                margin-right: 0.2em;
+            }
+        }
+
+        p.p2 {
+            @include styleFont($text-color4, 1.3rem, 400);
+            margin-top: 0.5em;
+        }
+
+        button {
+            @include styleFont($text-color4, 1.1rem, 700);
+            @include card(90%, $text-color2, 1.2em);
+        
+            border: 0;
+            border-radius: 10px;
+
+            margin-top: 1.6em;
+            margin-bottom: 1.5em;
+
+            cursor: pointer;
+        }
+    }
+
+    .main3 {
+        @include card(68%, $text-color, 3em, m3);
+
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid $text-color;
+
+        opacity: 0.8;      
+
+        header {
+            h2 {
+                @include styleFont($text-color4, 1.5rem, 700);
+                
+                padding-bottom: 1.5em;
+                padding-top: 0.5em; 
+            }
+        }
+
+        p {
+            @include styleFont($text-color4, 1.3rem, 700);
+
+            line-height: 2rem;
+        }
+    }
+}
+
+.attribution { font-size: 15px; margin-left: 20em; }
+.attribution a { color: hsl(228, 45%, 44%); }

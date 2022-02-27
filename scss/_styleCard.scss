@@ -1,0 +1,9 @@
+@mixin card($width, $background, $padding, $gridArea: '') {
+    width: $width;
+    background-color: $background;
+    padding: $padding;
+
+    @if $gridArea != '' {
+        grid-area: $gridArea;
+    }
+}
