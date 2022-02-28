@@ -50,7 +50,7 @@ main.card .main2 {
   padding: 2em;
   grid-area: m2;
   border-bottom-left-radius: 10px;
-  padding-right: 7em;
+  padding-right: 4em;
 }
 main.card .main2 header h2 {
   color: #e5eff5;
