@@ -121,27 +121,4 @@ main.card .main3 p {
   color: #3e52a3;
 }
 
-@media (max-width: 1360px) {
-  main.card {
-    display: block;
-  }
-  main.card .main1 {
-    width: 60%;
-  }
-  main.card .main1 header h1 {
-    padding-bottom: 0.5em;
-  }
-  main.card .main1 header h2 {
-    padding-bottom: 1.2em;
-  }
-  main.card .main2 {
-    width: 60%;
-    border-bottom-left-radius: 0;
-  }
-  main.card .main3 {
-    width: 60%;
-    border-bottom-left-radius: 10px;
-  }
-}
-
 /*# sourceMappingURL=styles.css.map */
